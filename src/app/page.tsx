@@ -10,7 +10,7 @@ const Page = () => {
   const [data, setData] = useState<any>(null);
   const [page, setPage] = useState(1);
   const [search, setSearch] = useState("");
-  const [debouncedSearch] = useDebounce(search, 100);
+  const [debouncedSearch] = useDebounce(search, 500);
 
   useEffect(() => {
     const FetchingApi = async () => {

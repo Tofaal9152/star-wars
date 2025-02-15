@@ -51,7 +51,7 @@ const MobileNav = () => {
       {/* 3 menubar */}
       <SheetTrigger>
         <svg
-          className="w-6 ml-2 h-6 text-black dark:"
+          className="w-6 ml-2 h-6 text-black dark:invert"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ const MobileNav = () => {
       </SheetTrigger>
       <SheetContent className="bg-white dark:bg-gray-800">
         <SheetHeader>
-          <SheetTitle className="flex items-center justify-center text-black dark:">
+          <SheetTitle className="flex items-center justify-center ">
             Menu
           </SheetTitle>
           <SheetDescription className="text-center text-gray-500 dark:text-gray-400">
@@ -81,7 +81,7 @@ const MobileNav = () => {
             className="flex items-center space-x-2 cursor-pointer hover:underline"
           >
             <FiHome className="text-lg" />
-            <span className="text-black dark: hover:text-gray-600 dark:hover:text-gray-400">
+            <span >
               Home
             </span>
           </Link>
